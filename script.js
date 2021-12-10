@@ -15,7 +15,7 @@ function randFunc(maxCipars) {
 
 function generet() {
 
-    tabulasRindas.innerHTML +=``;
+    tabulasRindas.innerHTML =``;
 
 for (let i = 0; i < variantuSkaits; i++) {
     // ciklā ieliek paroles veidošanu un izdruku
