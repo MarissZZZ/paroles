@@ -30,7 +30,8 @@ for (let i = 0; i < variantuSkaits; i++) {
     let parole2 = vardi2[rand2];
     let parole3 = vardi3[rand3];
 
-    parole=parole1+parole2+parole3;
+    let random= Math.ceil(Math.random()*10);
+    parole=parole1+parole2+parole3+random;
 
     tabulasRindas.innerHTML += `
     <tr>
