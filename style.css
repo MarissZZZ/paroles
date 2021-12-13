@@ -1,4 +1,4 @@
-.btn {
+.button {
     --c: goldenrod;
     color: var(--c);
     font-size: 16px;
@@ -12,9 +12,21 @@
     letter-spacing: 0.1em;
     text-align: center;
     line-height: 3em;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    transition: 0.5s;
-    margin: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    
+}
+
+h1 {
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+.teksti {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }

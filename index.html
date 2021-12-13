@@ -8,11 +8,23 @@
 </head>
 
 <body>
-    <h1>Paroļu ģenerators</h1>
-
+    
     <div class="wrapper">
+        <h1>Smieklīgo paroļu ģenerators</h1>
+        <div class="teksti">
+        Cik ciparu parolē:
+        <input class="cipars" id="ciparuSkaits" value=""/>
+        <br>
+        Cik variantu parolei vēlies:
+        <input class="cipars" id="variantuSkaits" value="" />
+        <br />
+        Iekļaut parolē vārdu:
+        <input class="papildusVards" id="papildusVards" value="" />
+        <br />
+        <!-- <input type="button" value="Ģenerēt" onclick="generetParoles()" /> -->
+        </div>
 
-        <button class="btn" onclick="generet()">Ģenerēt</button>
+        <button class="button" onclick="generetParoles()">Ģenerēt</button>
 
         <table>
             <thead>
