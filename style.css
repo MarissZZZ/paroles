@@ -20,6 +20,29 @@
     
 }
 
+body {
+    background-color: rgb(250, 222, 145);
+}
+
+table, th {
+    border: 10px dotted rgb(90, 69, 0);
+  }
+
+  table td {
+    border: 1px solid rgb(209, 165, 20);
+  }
+
+  table {
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+  }
+
+  thead {
+    background-color: rgb(207, 161, 11);
+    color: black;
+}
+
 h1 {
     text-align: center;
     color: darkgoldenrod;
@@ -30,3 +53,11 @@ h1 {
     margin-left: auto;
     text-align: center;
 }
+
+img {
+    width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2cm;
+  }
